@@ -1,0 +1,79 @@
+i.)What is the bash command to show your terminal's working directory (current location)?
+
+pwd
+
+ii.)How would you create an empty file called empty.txt from the command line?
+
+touch empty.txt
+
+iii.)Using the ls command, how would you list all files beginning with empty in your current directory?
+
+ls empty*
+
+iv.)Using the ls command, the wc command, and the |, how would you count the number of files ending in .txt in your current directory?
+
+ls *.txt | wc -w
+
+v.)Using the echo command and > or >>, what is the command to write your name to empty.txt? What is the difference between > and >>?
+
+echo Chris Kardaras > empty.txt
+Both > and >> redirect output from terminal
+> creates file if doesn't exist, overwrites contents of file with output if does
+>> creates file if doesn't exist, appends output to contents of file if does exist
+
+vi.)What is the bash command to rename that file to notempty.txt?
+
+mv empty.txt notempty.txt
+
+vii.)What is the bash command to create a directory named pe3_bash?
+
+mkdir pe3_bash
+
+viii.)What is the command to move your terminal's working directory to pe3_bash?
+
+cd pe3_bash
+
+ix.)From the pe3_bash directory, how would you create a new directory, pe3_bash_number2 that has the same parent directory as pe3_bash?
+
+mkdir -p ../pe3_bash_number2
+
+x.)What is the command to move from pe3_bash to pe3_bash_number2 (use only one command)?
+
+cd ../pe3_bash_number2
+
+xi.)What does pressing the up arrow key do?
+
+it fills the line with the last entered command, you can keep pressing up to go further back in the history of the terminal
+
+xii.)What does pressing the down arrow key do?
+
+When going back through the history of commands entered in the terminal, the down arrow key allows for us to go to commands closer to us, with the line closest in history being a blank line
+
+xiii.)What does pressing ctrl+r do?
+
+CTRL+r opens a search based on previous terminal commands
+
+xiv.)What are two different command-line based text editors (text editors that run from the command line and do not open a separate application)? (Answer the following questions for each editor that you have chosen.)
+
+vim and nano
+
+a.)What command do you use to open a file with this editor?
+
+In vim: vim [filename]
+In nano: nano [filename]
+
+b.)What command do you use to save a file while using this editor?
+In Vim: you must exit from typing mode by pressing ESC, then you enter :w
+In Nano: CTRL O, and then choose file name and press ENTER
+
+c.)What command do you use to exit this editor?
+In Vim: ESC and then :q
+In Nano: CTRL X
+
+xv.)What are two different reasons you might want to use the text editors listed above?
+
+The first reason, is that both Vim and Nano use significantly less memory than editors like Atom. 
+The second reason I think would be a cross between accessibility and efficiency, for instance,
+if you wanted to edit files that are on a server, rather than downloading said file opening your editor of choice
+making your changes and reuploading said file, you could just open up vim or nano on the server and make the changes.
+
