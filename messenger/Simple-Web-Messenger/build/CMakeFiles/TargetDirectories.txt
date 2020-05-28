@@ -1,0 +1,7 @@
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/install/strip.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/install/local.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/messenger.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/list_install_components.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/edit_cache.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/rebuild_cache.dir
+/home/chris/Desktop/messenger/Simple-Web-Messenger/build/CMakeFiles/install.dir
